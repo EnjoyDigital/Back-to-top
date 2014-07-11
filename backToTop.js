@@ -28,9 +28,9 @@
 				var distance = $(window).scrollTop();
 
 				if(distance >= settings.fromTop && !$button.is(':visible')){
-					$button.fadeIn();
+					$button.stop().fadeIn();
 				}else if(distance < settings.fromTop && $button.is(':visible')){
-					$button.fadeOut();
+					$button.stop().fadeOut();
 				}
 			});
 		}
