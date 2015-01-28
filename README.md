@@ -1,7 +1,7 @@
-Back to top
+ED Back to top
 =========
 
-Back to top is exactly what it says on the tin, it adds a small button at the bottom right of the screen with an up arrow 
+ED Back to top is exactly what it says on the tin, it adds a small button at the bottom right of the screen with an up arrow 
 and smoothly scrolls the user back up. It only shows after a set distance has been scrolled.
 
 ###How to use
@@ -9,7 +9,7 @@ and smoothly scrolls the user back up. It only shows after a set distance has be
 Include the plugin
 
 ```html
-<script src="js/backToTop.min.js"></script>
+<script src="js/edBackToTop.min.js"></script>
 ```
 
 ###Initialise the plugin
@@ -17,7 +17,7 @@ Include the plugin
 ```html
 <script>
 $(function(){
-	$.backToTop();
+	$.edBackToTop();
 });
 </script>
 ```
