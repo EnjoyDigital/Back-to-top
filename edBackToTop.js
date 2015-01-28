@@ -8,7 +8,7 @@
 	'use strict';
 
 	$.extend({
-		backToTop: function(options){
+		edBackToTop: function(options){
 
 			var settings = $.extend({
 				'fromTop': 50
